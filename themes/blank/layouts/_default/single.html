@@ -1,0 +1,31 @@
+{{ define "main" }}
+	<div id="article-banner"></div>
+	<main>
+		{{ if (isset .Params "label") }}
+			{{ if eq .Params.label "article" }}
+				<div id="tableofcontent"><div id="retour"><a href="../" >< Retour</a></div>{{ .TableOfContents }}</div>
+			{{ end }}
+		{{ end }}
+		<article>
+			<h1>{{ .Title }}</h1>
+			
+			<div>
+				{{ .Content }}
+			</div>
+			{{ with .Params.tags }}
+			<div>
+				<ul id="tags">
+					{{ range . }}
+					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+			{{ end }}
+			{{ with .Site.DisqusShortname }}
+			<div>
+				{{ template "_internal/disqus.html" . }}
+			</div>
+			{{ end }}
+		</article>
+	</main>
+{{ end }}

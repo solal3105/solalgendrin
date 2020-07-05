@@ -1,0 +1,30 @@
+
+<article class="{{.Params.label}}">
+	<div class="content-article">
+		<div class="timeline">
+			<div class="date">
+				{{ .Date.Format "2006" }}
+			</div>
+			<div class="tag">
+				{{ range .Params.tags }}
+					<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}#menu" class="tag">{{ . }}</a>
+				{{ end }}
+			</div>
+		</div>
+		<div class="corps-article">
+		{{ if .Params.image }}
+			<img src="{{ .Params.image }}" alt="Illustration de l'article">
+		{{ end }}
+		<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+		<h2>{{ .Page.Params.subtitle }}</h2>
+		<div class="content_summury_article">
+			{{ .Summary }}
+
+			{{ if .Truncated }}
+			<br>
+				<a href="{{ .Permalink }}">Découvrir</a>
+			{{ end }}
+		</div>
+		</div>
+	</div>
+</article>

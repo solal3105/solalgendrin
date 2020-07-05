@@ -1,0 +1,39 @@
+baseURL = "http://solal.gendr.in/"
+languageCode = "fr-fr"
+title = "Solal Gendrin"
+theme = "blank"
+paginate= 100
+[taxonomies]
+	tag = "tags"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "tout"
+    name = "Tout"
+    url = "/"
+    weight = -10
+
+  [[menu.main]]
+    identifier = "experience#menu"
+    name = "Experience"
+    url = "/tags/experience/"
+    weight = -9
+
+  [[menu.main]]
+    identifier = "formation#menu"
+    name = "Formation"
+    url = "/tags/formation/"
+    weight = -8
+
+  [[menu.main]]
+    identifier = "evolution#menu"
+    name = "Evolution"
+    url = "/tags/evolution/"
+    weight = -7
+
+  [[menu.main]]
+    identifier = "article#menu"
+    name = "Article"
+    url = "/tags/article"
+    weight = -6

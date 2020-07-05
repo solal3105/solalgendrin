@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "fr-fr" }}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Description" content="Solal Gendrin - Product Owner sur Lyon. Découvrez mon portfolio ! ">	
+	<title>{{ .Title }}</title>
+	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	<link rel="stylesheet" href='{{ .Site.BaseURL }}css/style.css'>
+	{{ with .OutputFormats.Get "RSS" -}}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+	{{- end }}
+	{{ if eq .Params.label "article" }}
+	<link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/{{.Params.label}}.css" />
+	{{ end }}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	{{ if ne .Params.label "article" }}
+		{{ partialCached "homepage" . }}
+		{{ partial "header" . }}
+	{{ end }}
+
+	
+	{{ block "main" . }}{{ end }}
+
+	{{ partialCached "footer" . }}
+	<script type="text/javascript" src="/js/inview.js"></script>
+	<script type="text/javascript" src="/js/rellax.min.js"></script>
+	<script type="text/javascript">
+
+	/* RELLAX */
+	
+	/*var rellax = new Rellax('.corps-article');
+	
+	/* INVIEW */
+
+	// Pour capter un changement du viewheight
+	window.onresize = function(){ 
+		x = window.innerHeight;
+		x = x - 301;
+		inView.offset({
+	    bottom: x,
+	    top: 299
+	});
+	}
+	x = window.innerHeight;
+	x = x - 301;
+	inView.offset({
+	    bottom: x,
+	    top: 299
+	});
+
+	console.log('Bonjour à toi, lecteur de console :) ');
+
+		inView('.timeline')
+	    .on('exit', el => {
+	        el.style.opacity = 0;
+	        el.style.transition = "all 1s";
+	         
+	    })
+	    .on('enter', el => {
+	        el.style.opacity = 1;
+	        el.style.transition = "all 0.1s";
+	    });
+    </script>
+</body>
+</html>
