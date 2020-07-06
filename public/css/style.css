@@ -1,6 +1,6 @@
 /* montserrat-regular - latin */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat2';
   font-style: normal;
   font-weight: 400;
   src: local('Montserrat Regular'), local('Montserrat-Regular'),
@@ -10,7 +10,7 @@
 }
 /* montserrat-800 - latin */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat2';
   font-style: normal;
   font-weight: 800;
   src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
@@ -39,8 +39,13 @@
        unicode-range: U+000-5FF; /* Latin glyphs */
 }
 html{
-  scroll-behavior: unset;
+  margin: 0 auto;
+}
+body{
   transition: 0.3s;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
 }
 :root {
   --article-color: #5D00C2;
@@ -73,10 +78,17 @@ footer{
   box-shadow: none;
 }
 #menu ul{
-  margin: 32px;
-  display: flex;
-  padding-left: 258px;
+  padding: 32px 0 ;
+  display: inline-flex;
+  margin: 0 auto 0 282px;
+  width: 100%;
 }
+@supports (((-webkit-backdrop-filter:  blur(5px)) or(backdrop-filter: saturate(180%) blur(5px)))) {
+        #menu ul{
+            -webkit-backdrop-filter: saturate(180%) blur(48px);
+            background: rgba(255,255,255,0);
+        }
+    }
 
 #menu ul li.active-menu{
   opacity: 1;
@@ -93,7 +105,14 @@ footer{
 #menu ul li{
   color: #333;
 }
-header, main, aside, footer, #homepage{
+header, main{
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+ aside, footer{
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
@@ -105,6 +124,7 @@ header, main, aside, footer, #homepage{
   box-shadow: 0px -40px 20px -40px rgba(0,0,0,0.1);
   z-index: 9;
 }
+
 #header{
   display: flex;
   flex-direction: row;
@@ -142,8 +162,10 @@ header, main, aside, footer, #homepage{
   height: 24px;
 }
 
-#homepage #content{
+#homepage #content, #homepage #header{
   display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 #homepage #content #text{
   display: flex;

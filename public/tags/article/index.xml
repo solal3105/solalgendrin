@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>article on Solal Gendrin</title>
+    <link>/tags/article/</link>
+    <description>Recent content in article on Solal Gendrin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/article/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UX Design Concept</title>
+      <link>/posts/2020_article_netflix/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020_article_netflix/</guid>
+      <description>&lt;p&gt;L&amp;rsquo;objectif est d’améliorer l&amp;rsquo;interface de Netflix. Au moins deux périphériques seront analysés. Afin de répondre au brief, j&amp;rsquo;ai choisi d&amp;rsquo;utiliser un modèle de processus de conception qui permette :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D&amp;rsquo;avoir des étapes de découverte et d&amp;rsquo;idéation qui se déroulent simultanément, et non l&amp;rsquo;une après l&amp;rsquo;autre.&lt;/li&gt;
+&lt;li&gt;De donner un rôle centrale au Design concept&lt;/li&gt;
+&lt;li&gt;D&amp;rsquo;avoir des phases de tests à tout moment&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

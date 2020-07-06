@@ -2,13 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Solal Gendrin</title>
-    <link>http://solal.gendr.in/</link>
+    <link>/</link>
     <description>Recent content on Solal Gendrin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://solal.gendr.in/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UX Design Concept</title>
+      <link>/posts/2020_article_netflix/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020_article_netflix/</guid>
+      <description>&lt;p&gt;L&amp;rsquo;objectif est d’améliorer l&amp;rsquo;interface de Netflix. Au moins deux périphériques seront analysés. Afin de répondre au brief, j&amp;rsquo;ai choisi d&amp;rsquo;utiliser un modèle de processus de conception qui permette :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D&amp;rsquo;avoir des étapes de découverte et d&amp;rsquo;idéation qui se déroulent simultanément, et non l&amp;rsquo;une après l&amp;rsquo;autre.&lt;/li&gt;
+&lt;li&gt;De donner un rôle centrale au Design concept&lt;/li&gt;
+&lt;li&gt;D&amp;rsquo;avoir des phases de tests à tout moment&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chargé de projet &amp; de communication</title>
+      <link>/posts/2014_experience_batondujura/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2014_experience_batondujura/</guid>
+      <description>Chargé de projet d’une Entreprise de 18 personnes dans l&amp;rsquo;objectif de réaliser un produit durable. Par la suite je me suis chargé de la réalisation d’un site internet de vente et de la charte graphique.</description>
+    </item>
+    
+    <item>
+      <title>Conception UI</title>
+      <link>/posts/2012_experience_knet/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2012_experience_knet/</guid>
+      <description>Maquettage d’une application de lecture de flux vidéo, puis aide à la conception de l’interface utilisateur pour le boitier télé. Bon, j&amp;rsquo;étais jeune, je ne connaissais pas les outils de prototypage, mais je suis plutôt content d&amp;rsquo;avoir commencé avec un papier et un crayon ! Je pense que ça permet de rester dans une phase d&amp;rsquo;abstraction qui est importante au début d&amp;rsquo;un projet.</description>
+    </item>
     
   </channel>
 </rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>experience on Solal Gendrin</title>
+    <link>/tags/experience/</link>
+    <description>Recent content in experience on Solal Gendrin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/experience/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chargé de projet &amp; de communication</title>
+      <link>/posts/2014_experience_batondujura/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2014_experience_batondujura/</guid>
+      <description>Chargé de projet d’une Entreprise de 18 personnes dans l&amp;rsquo;objectif de réaliser un produit durable. Par la suite je me suis chargé de la réalisation d’un site internet de vente et de la charte graphique.</description>
+    </item>
+    
+    <item>
+      <title>Conception UI</title>
+      <link>/posts/2012_experience_knet/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2012_experience_knet/</guid>
+      <description>Maquettage d’une application de lecture de flux vidéo, puis aide à la conception de l’interface utilisateur pour le boitier télé. Bon, j&amp;rsquo;étais jeune, je ne connaissais pas les outils de prototypage, mais je suis plutôt content d&amp;rsquo;avoir commencé avec un papier et un crayon ! Je pense que ça permet de rester dans une phase d&amp;rsquo;abstraction qui est importante au début d&amp;rsquo;un projet.</description>
+    </item>
+    
+  </channel>
+</rss>
