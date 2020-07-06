@@ -1,12 +1,16 @@
----
-title: "Redesign Concept Netflix"
-subtitle: "Un subtitle"
-date: 2020-06-14T17:45:43+02:00
-draft: true
-label: "article"
-tags: ["article"]
-image: "/images/netflix.svg" 
----
++++
+title = "UX Design Concept"
+description = ""
+tags = [
+    "article",
+]
+date = "2020-01-01"
+categories = [
+    "Development",
+    "golang",
+]
+label = "article"
++++
 
 ![Screen d'applications intéressantes pour la phase d'idéation](illustration.svg)
 ## Brief
