@@ -28,12 +28,14 @@
 
 	{{ partialCached "footer" . }}
 	<script type="text/javascript" src="/js/inview.js"></script>
-	<script type="text/javascript" src="/js/rellax.min.js"></script>
+	<!-- <script type="text/javascript" src="/js/rellax.min.js"></script> -->
 	<script type="text/javascript">
 
 	/* RELLAX */
 	
-	/*var rellax = new Rellax('.corps-article');
+	/* var rellax = new Rellax('#homepage', {
+	    speed: -1,
+	  }); */
 	
 	/* INVIEW */
 
@@ -55,7 +57,7 @@
 
 	console.log('Bonjour à toi, lecteur de console :) ');
 
-		inView('.timeline')
+		inView('.content')
 	    .on('exit', el => {
 	        el.style.opacity = 0;
 	        el.style.transition = "all 1s";
