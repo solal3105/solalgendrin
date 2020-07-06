@@ -39,8 +39,13 @@
        unicode-range: U+000-5FF; /* Latin glyphs */
 }
 html{
-  scroll-behavior: unset;
+  margin: 0 auto;
+}
+body{
   transition: 0.3s;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
 }
 :root {
   --article-color: #5D00C2;
@@ -100,10 +105,14 @@ footer{
 #menu ul li{
   color: #333;
 }
-header, article, main{
-  width: 100%;
+header, main{
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
- aside, footer, #homepage{
+ aside, footer{
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
