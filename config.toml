@@ -1,4 +1,4 @@
-baseURL = "http://solal.gendr.in/"
+baseURL = "/"
 languageCode = "fr-fr"
 title = "Solal Gendrin"
 theme = "blank"
