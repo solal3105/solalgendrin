@@ -162,8 +162,10 @@ header, main{
   height: 24px;
 }
 
-#homepage #content{
+#homepage #content, #homepage #header{
   display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 #homepage #content #text{
   display: flex;
