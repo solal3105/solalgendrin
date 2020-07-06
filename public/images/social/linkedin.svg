@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>010-linkedin</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.647059 0 0 0 0 0.223529 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Dekstop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1264.000000, -48.000000)">
+            <g id="Group-6" transform="translate(1168.000000, 48.000000)">
+                <g filter="url(#filter-1)" id="010-linkedin">
+                    <g transform="translate(96.000000, 0.000000)">
+                        <path d="M1.5087324,0 C0.596461481,0 0,0.648197869 0,1.50016434 C0,2.33331509 0.578692918,3 1.47372684,3 L1.49103979,3 C2.4211552,3 3,2.33331509 3,1.50016434 C2.98261112,0.648197869 2.4211552,0 1.5087324,0 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="0 5 3 5 3 15 0 15"></polygon>
+                        <path d="M11.8513371,5 C9.90731189,5 8.60373661,6.64629298 8.60373661,6.64629298 L8.60373661,5.22931962 L5,5.22931962 L5,15 L8.60353142,15 L8.60353142,9.54367244 C8.60353142,9.25156734 8.62702757,8.95992455 8.72224346,8.75104028 C8.98275331,8.16775469 9.57559532,7.56347901 10.5711554,7.56347901 C11.8751411,7.56347901 12.3966738,8.45948995 12.3966738,9.77299206 L12.3966738,15 L16,15 L16,9.39766613 C16,6.39653802 14.2220896,5 11.8513371,5 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+article{
+  max-width: 960px;
+  padding: 40px 80px;
+  background-color: #fff;
+  box-shadow: 0 -48px 48px rgba(0,0,0,0.04);
+  position: relative;
+  top: -160px;
+
+}
+#article-banner{
+  background: rgb(122,0,255);
+  background: linear-gradient(330deg, var(--formation-color) 0%, var(--experience-color) 100%);
+  height: 320px;
+  width: 100%;
+
+}
+time{
+  color: #333;
+}
+img{
+  width: 100%;
+}
+*{
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-family: 'Syncopate', sans-serif;
+  font-size: 2.8em;
+   color: #333;
+   font-weight: 800;
+}
+h2{
+  font-family: 'Syncopate', sans-serif;
+  font-size: 2.8em;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, var(--experience-light-color) 50%);
+  display: inline-flex;
+  margin-top: 3.2em;
+}
+h3{
+
+  font-family: 'Syncopate', sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: 1.6em;
+  margin-top: 2.4em;
+}
+h4{
+  font-weight: normal;
+  text-decoration: underline;
+  font-size: 140%;
+  font-family: 'Syncopate', sans-serif;
+  margin-bottom: 1.4em;
+  margin-top: 2.8em;
+}
+h5{
+  font-weight: 400;
+  font-size: 130%;
+  margin-bottom: 1.2em;
+  margin-top: 2.4em;
+}
+h6{
+  text-decoration: underline;
+  font-size: 120%;
+  margin-bottom: 1.0em;
+  margin-top: 2.0em;
+}
+h2 + p{
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px 0;
+}
+#retour a{
+  color: var(--formation-color);
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'Syncopate', sans-serif;
+}
+#tableofcontent{
+  text-align: right;
+  padding: 40px 40px  0 0;
+  position: sticky;
+  top: 40px;
+  right: 40px;
+  max-height: 200px;
+  transition: 0.4s;
+}
+#tableofcontent ul li{
+    list-style: none;
+    padding-top: 1em;
+
+}
+#tableofcontent ul li ul li{
+    padding-top: 00px;
+}
+#tableofcontent ul li a{
+  color: #666;
+  text-decoration: none;
+  line-height:2em;
+  font-weight: 800;
+}
+#tableofcontent ul li ul li a{
+  color: #888;
+  text-decoration: none;
+  line-height:1.5em;
+  font-weight: 200;
+}
+#tableofcontent:hover ul li a{
+  color: #222;
+  text-decoration: none;
+}
+#tableofcontent:hover ul li ul li a{
+  color: #444;
+  text-decoration: none;
+}
+p{
+  text-align: justify;
+  margin-block-start: 0em;
+  margin-block-end: 1em;
+}
+blockquote{
+  border-left: 2px solid #333;
+  margin-left: 0px;
+  padding: 5px 0px 0px 20px;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>012-messenger</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.576471 0 0 0 0 0.133333 0 0 0 0 0.933333 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Dekstop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1312.000000, -48.000000)">
+            <g id="Group-6" transform="translate(1168.000000, 48.000000)">
+                <g filter="url(#filter-1)" id="012-messenger">
+                    <g transform="translate(144.000000, 0.000000)">
+                        <path d="M8.00004921,0 C3.58169886,0 0,3.31640625 0,7.40732423 C0,9.72382813 1.14840304,11.7921875 2.94678057,13.1503906 L2.94678057,16 L5.63160323,14.4852539 C6.38018096,14.6992188 7.17560012,14.8148437 8.00004921,14.8148437 C12.4185964,14.8148437 16,11.4981445 16,7.40742187 C16,3.31640625 12.4185964,0 8.00004921,0 Z M8.8093437,9.91171875 L6.75776643,7.77392578 L2.83134983,9.91171875 L7.14558617,5.37851563 L9.2163527,7.4790039 L13.0991752,5.37851563 L8.8093437,9.91171875 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
