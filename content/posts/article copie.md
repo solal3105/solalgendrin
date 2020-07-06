@@ -1,3 +1,20 @@
++++
+title = "(Hu)go Template Primer"
+description = ""
+tags = [
+    "go",
+    "golang",
+    "templates",
+    "themes",
+    "development",
+]
+date = "2014-04-02"
+categories = [
+    "Development",
+    "golang",
+]
+highlight = "true"
++++
 ---
 title: "Redesign Concept Netflix"
 subtitle: "Un subtitle"
@@ -6,6 +23,7 @@ draft: true
 label: "article"
 tags: ["article"]
 ---
+
 
 ![Screen d'applications intéressantes pour la phase d'idéation](illustration.svg)
 ## Brief
