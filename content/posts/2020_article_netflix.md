@@ -1,16 +1,20 @@
 +++
 title = "UX Design Concept"
-description = ""
+subtitle = "Réalisé lors d'un design sprint d'une semaine"
 tags = [
     "article",
 ]
 date = "2020-01-01"
-categories = [
-    "Development",
-    "golang",
-]
 label = "article"
 +++
+
+
+L'objectif est d’améliorer l'interface de Netflix. Au moins deux périphériques seront analysés. Afin de répondre au brief, j'ai choisi d'utiliser un modèle de processus de conception qui permette : 
+- D'avoir des étapes de découverte et d'idéation qui se déroulent simultanément, et non l'une après l'autre.
+- De donner un rôle centrale au Design concept
+- D'avoir des phases de tests à tout moment
+
+<!--more-->
 
 ![Screen d'applications intéressantes pour la phase d'idéation](illustration.svg)
 ## Brief
