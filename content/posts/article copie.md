@@ -1,5 +1,5 @@
 +++
-title = "(Hu)go Template Primer"
+title = "UX Design Concept"
 description = ""
 tags = [
     "article",
