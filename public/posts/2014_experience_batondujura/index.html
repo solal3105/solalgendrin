@@ -42,15 +42,17 @@
 		</div>
 	</div>
 	<div id="content">
-		<img src="/images/illustration-min.png" alt="Photo en noir et blanc de Solal Gendrin">
 		<div id="text">
-			<span>Hello,</span>
+			<span>hello,</span>
 			<p>
-				Je suis Product Owner à Hiveo, Start-up lyonnaise prométeuse. Lors de ma scolarité, j’ai souhaité étudier l’UX, le Marketing et l’Informatique, dans le but d’avoir une vision globale en entreprise.
+				Je m'appelle Solal Gendrin, et je suis <span>Product Owner</span> à Hiveo; une start-up lyonnaise, spécialisée dans la conformité légale.
 				<br><br>
-				Je suis passionné de design, minimalisme, d’architecture, d’urbanisme, je partage nottament cete passion sur Instagram.
+				Mais pourquoi le produit ? De mon point de vue c'est la suite logique de toutes mes années d'expériences et de formation : une base d'<a href="#">informatique</a>, une touche de <a href="#">marketing</a> et de solides bases en <a href="#">UX</a>.
 				<br><br>
-				On se croisera certainement à un Meetup, mais si tu souhaites provoquer la rencontre, <a href="mailto:solal@gendr.in">contacte-moi</a> !
+				Le produit, c’est un domaine dans lequel je m'accomplis et dans lequel j'ai envie de poursuivre. Sur un plan plus personnel, je suis passionné de design, d’architecture, et d’urbanisme. Je partage cette passion sur Instagram.
+
+
+On se croisera certainement à un Meetup, mais si tu souhaites provoquer la rencontre, contacte-moi ! <a href="mailto:solal@gendr.in">contacte-moi</a> !
 			</p>
 			<a href="#menu" id="button">
 				Mon parcours ↓
@@ -122,7 +124,9 @@
 </footer>
 
 	<script src="/js/inview.js"></script>
+	<script src="/js/modernizr-webp.js"></script>
 	
+
 	<script>
 
 	 
@@ -148,9 +152,7 @@
 	    top: 299
 	});
 
-	console.log('Bonjour à toi, lecteur de console :) ');
-
-		inView('.content')
+		inView('.timeline')
 	    .on('exit', el => {
 	        el.style.opacity = 0;
 	        el.style.transition = "all 1s";
@@ -160,6 +162,18 @@
 	        el.style.opacity = 1;
 	        el.style.transition = "all 0.1s";
 	    });
+	 
+    Modernizr.on('webp', function(result) {
+		var content = document.getElementById("content");
+		var img = document.createElement("img");
+		img.alt = "Photo en noir et blanc de Solal Gendrin";
+		content.appendChild(img);
+	  if (result) {
+		img.src = "/images/illustration-min.webp";
+	  } else {
+		img.src = "/images/illustration-min.png";
+	  }
+	});
     </script>
 </body>
 </html>

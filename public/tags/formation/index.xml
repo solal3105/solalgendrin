@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>formation on Solal Gendrin</title>
+    <link>/tags/formation/</link>
+    <description>Recent content in formation on Solal Gendrin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/formation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Master UX</title>
+      <link>/posts/2019_formation_esd/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019_formation_esd/</guid>
+      <description>La prolifération des interfaces web, des applications, des objets connectés, des écrans a rendu incon- tournable la capacité à penser une « expérience utilisateur » (User Experience) la plus simple, intuitive et efficace possible : l’objectif est d’anti- ciper les désirs, les actions et les parcours de l’utili- sateur, en amont, pendant et en aval de son contact avec votre produit, votre site ou votre service.</description>
+    </item>
+    
+  </channel>
+</rss>

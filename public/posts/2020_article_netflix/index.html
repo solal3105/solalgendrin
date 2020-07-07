@@ -11,11 +11,85 @@
 	<link rel="stylesheet" href='/css/style.css'>
 	
 	
-	<link rel="stylesheet" type="text/css" href="/css/article.css" />
-	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+	
+		<div id="homepage">
+	<div id="header">
+		<img src="/images/logo.svg" alt="logo">
+		<div id="social">
+			<a href="#">
+				<img src="/images/social/instagram.svg" alt="Lien social instagram">
+				<div class="aside_social">Pour les curieux</div>
+			</a>
+			<a href="#">
+				<img src="/images/social/whatsapp.svg" alt="Lien social whatsapp">
+				<div class="aside_social">Pour les connaissances</div>
+			</a>
+			<a href="#">
+				<img src="/images/social/linkedin.svg" alt="Lien social linkedin">
+				<div class="aside_social">Pour les contacts pros</div>
+			</a>
+			<a href="#">
+				<img src="/images/social/messenger.svg" alt="Lien social messenger">
+				<div class="aside_social">Pour les amis</div>
+			</a>
+			<a href="#">
+				<img src="/images/social/twitter.svg" alt="Lien social twitter">
+				<div class="aside_social">Pour les passionés</div>
+			</a>
+		</div>
+	</div>
+	<div id="content">
+		<div id="text">
+			<span>hello,</span>
+			<p>
+				Je m'appelle Solal Gendrin, et je suis <span>Product Owner</span> à Hiveo; une start-up lyonnaise, spécialisée dans la conformité légale.
+				<br><br>
+				Mais pourquoi le produit ? De mon point de vue c'est la suite logique de toutes mes années d'expériences et de formation : une base d'<a href="#">informatique</a>, une touche de <a href="#">marketing</a> et de solides bases en <a href="#">UX</a>.
+				<br><br>
+				Le produit, c’est un domaine dans lequel je m'accomplis et dans lequel j'ai envie de poursuivre. Sur un plan plus personnel, je suis passionné de design, d’architecture, et d’urbanisme. Je partage cette passion sur Instagram.
+
+
+On se croisera certainement à un Meetup, mais si tu souhaites provoquer la rencontre, contacte-moi ! <a href="mailto:solal@gendr.in">contacte-moi</a> !
+			</p>
+			<a href="#menu" id="button">
+				Mon parcours ↓
+			</a>
+		</div>
+	</div>
+</div>
+		<header>
+	<nav id="menu">
+		 <ul>
+	        
+	        
+	            <li  >
+	            	<a    href="/#menu" > Tout</a>
+				</li>
+	        
+	            <li  >
+	            	<a   href="/tags/experience#menu"  > Experience</a>
+				</li>
+	        
+	            <li  >
+	            	<a   href="/tags/formation#menu"  > Formation</a>
+				</li>
+	        
+	            <li  >
+	            	<a   href="/tags/evolution#menu"  > Evolution</a>
+				</li>
+	        
+	            <li  >
+	            	<a   href="/tags/article#menu"  > Article</a>
+				</li>
+	        
+	    </ul>
+	</nav>
+</header>
+
+
 	
 
 	
@@ -23,40 +97,6 @@
 	<div id="article-banner"></div>
 	<main>
 		
-			
-				<div id="tableofcontent"><div id="retour"><a href="../" >&lt; Retour</a></div><nav id="TableOfContents">
-  <ul>
-    <li><a href="#brief">Brief</a></li>
-    <li><a href="#pensée-divergente">Pensée divergente</a>
-      <ul>
-        <li><a href="#la-phase-de-découverte">La phase de découverte</a></li>
-        <li><a href="#la-phase-didéation">La phase d&rsquo;idéation</a></li>
-      </ul>
-    </li>
-    <li><a href="#le-concept">Le concept</a>
-      <ul>
-        <li><a href="#design-interactif">Design interactif</a></li>
-        <li><a href="#composants-clés">Composants clés</a></li>
-        <li><a href="#protocole-de-test">Protocole de test</a></li>
-      </ul>
-    </li>
-    <li><a href="#convergent-thinking">Convergent thinking</a>
-      <ul>
-        <li><a href="#vue-toutes-les-chaînes">Vue &ldquo;Toutes les chaînes&rdquo;</a></li>
-        <li><a href="#vue-chaîne">Vue &ldquo;chaîne&rdquo;</a></li>
-        <li><a href="#composants-sociaux">Composants sociaux</a></li>
-        <li><a href="#à-savoir">À savoir</a></li>
-      </ul>
-    </li>
-    <li><a href="#le-produit">Le produit</a>
-      <ul>
-        <li><a href="#annonce-de-la-fonctionalitée">Annonce de la fonctionalitée</a></li>
-        <li><a href="#mockup-3d">Mockup 3D</a></li>
-        <li><a href="#prototype">Prototype</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav></div>
 			
 		
 		<article>
@@ -400,6 +440,8 @@ Les tests utilisateurs dans la phase de concept permettent nottament d&rsquo;ori
 					
 					<li><a href="/tags/article">article</a></li>
 					
+					<li><a href="/tags/ux-design">UX Design</a></li>
+					
 				</ul>
 			</div>
 			
@@ -412,7 +454,9 @@ Les tests utilisateurs dans la phase de concept permettent nottament d&rsquo;ori
 </footer>
 
 	<script src="/js/inview.js"></script>
+	<script src="/js/modernizr-webp.js"></script>
 	
+
 	<script>
 
 	 
@@ -438,9 +482,7 @@ Les tests utilisateurs dans la phase de concept permettent nottament d&rsquo;ori
 	    top: 299
 	});
 
-	console.log('Bonjour à toi, lecteur de console :) ');
-
-		inView('.content')
+		inView('.timeline')
 	    .on('exit', el => {
 	        el.style.opacity = 0;
 	        el.style.transition = "all 1s";
@@ -450,6 +492,18 @@ Les tests utilisateurs dans la phase de concept permettent nottament d&rsquo;ori
 	        el.style.opacity = 1;
 	        el.style.transition = "all 0.1s";
 	    });
+	 
+    Modernizr.on('webp', function(result) {
+		var content = document.getElementById("content");
+		var img = document.createElement("img");
+		img.alt = "Photo en noir et blanc de Solal Gendrin";
+		content.appendChild(img);
+	  if (result) {
+		img.src = "/images/illustration-min.webp";
+	  } else {
+		img.src = "/images/illustration-min.png";
+	  }
+	});
     </script>
 </body>
 </html>

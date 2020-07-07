@@ -187,6 +187,11 @@ header, main{
   font-size: 3em;
   font-weight: 600;
 }
+#homepage #content #text p span{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+}
 #homepage #content #text p{
   font-size: 1.2em;
 }
