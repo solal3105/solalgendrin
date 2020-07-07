@@ -28,7 +28,9 @@
 
 	{{ partialCached "footer" . }}
 	<script src="/js/inview.js"></script>
+	<script src="/js/modernizr-webp.js"></script>
 	<!-- <script  src="/js/rellax.min.js"></script> -->
+
 	<script>
 
 	/* RELLAX */
@@ -55,8 +57,6 @@
 	    top: 299
 	});
 
-	console.log('Bonjour à toi, lecteur de console :) ');
-
 		inView('.timeline')
 	    .on('exit', el => {
 	        el.style.opacity = 0;
@@ -67,6 +67,18 @@
 	        el.style.opacity = 1;
 	        el.style.transition = "all 0.1s";
 	    });
+	/* INVIEW */
+    Modernizr.on('webp', function(result) {
+		var content = document.getElementById("content");
+		var img = document.createElement("img");
+		img.alt = "Photo en noir et blanc de Solal Gendrin";
+		content.appendChild(img);
+	  if (result) {
+		img.src = "/images/illustration-min.webp";
+	  } else {
+		img.src = "/images/illustration-min.png";
+	  }
+	});
     </script>
 </body>
 </html>

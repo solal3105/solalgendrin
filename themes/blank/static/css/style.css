@@ -158,11 +158,14 @@ header, main{
 #social img{
   height: 24px;
 }
-
 #homepage #content, #homepage #header{
   display: flex;
+  flex-direction: row;
   max-width: 1440px;
   margin: 0 auto;
+}
+#homepage #content{
+  flex-direction: row-reverse;
 }
 #homepage #content #text{
   display: flex;
