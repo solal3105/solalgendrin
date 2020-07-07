@@ -16,24 +16,24 @@ paginate= 100
 
   [[menu.main]]
     identifier = "experience#menu"
-    name = "Experience"
+    name = "Experiences"
     url = "/tags/experience/"
     weight = -9
 
   [[menu.main]]
     identifier = "formation#menu"
-    name = "Formation"
+    name = "Formations"
     url = "/tags/formation/"
     weight = -8
 
   [[menu.main]]
     identifier = "evolution#menu"
-    name = "Evolution"
+    name = "Évolutions"
     url = "/tags/evolution/"
     weight = -7
 
   [[menu.main]]
     identifier = "article#menu"
-    name = "Article"
+    name = "☲ Articles"
     url = "/tags/article"
     weight = -6

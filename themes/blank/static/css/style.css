@@ -173,6 +173,11 @@ header, main{
   align-items: baseline;
   margin: auto 0;
 }
+span#hello{
+  font-family: 'Syncopate', sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+}
 #homepage #content #text {
   font-family: 'Montserrat', sans-serif;
   text-align: justify;
@@ -181,22 +186,14 @@ header, main{
   align-items: baseline;
   margin: auto 0;
   padding: 40px;
-}
-#homepage #content #text span{
-  font-family: 'Syncopate', sans-serif;
-  font-size: 3em;
-  font-weight: 600;
-}
-#homepage #content #text p span{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  font-weight: 700;
-}
-#homepage #content #text p{
   font-size: 1.2em;
 }
-#homepage #content #text a{
-  color: #000;
+#homepage #content #text p span{
+  font-weight: 700;
+}
+#homepage #content #text p a{
+  font-family: 'Montserrat', sans-serif;
+  color: var(--article-color);
 }
 #homepage #content #text #button{
   font-size: 1.2em;
@@ -206,6 +203,7 @@ header, main{
   font-weight: 700;
   border-bottom: 2px solid #fff;
   transition: 0.3s;
+  margin: 1.2em 0;
 }
 #homepage #content #text #button:hover{
   background: linear-gradient(180deg,rgba(255,255,255,0) 70%, var(--experience-ultralight-color) 70%);
