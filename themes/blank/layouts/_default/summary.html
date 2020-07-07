@@ -11,6 +11,11 @@
 				{{ end }}
 			</div>
 		</div>
+		
+		{{if (eq .Params.label "evolution")}}
+			<div class="container">
+			<img src="/images/tuile/evolution/top.svg" class="evolution_top">
+		{{end}}
 		<div class="corps-article" >
 		{{ if .Params.image }}
 			<img src="{{ .Params.image }}" alt="Illustration de l'article">
@@ -25,6 +30,11 @@
 				<a href="{{ .Permalink }}">Découvrir</a>
 			{{ end }}
 		</div>
+
 		</div>
+		{{if (eq .Params.label "evolution")}}
+			<img src="/images/tuile/evolution/bottom.svg">
+			</div>
+		{{end}}
 	</div>
 </article>

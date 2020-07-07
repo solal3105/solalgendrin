@@ -44,11 +44,19 @@ body{
   padding: 0;
   width: 90%;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 :root {
   --article-color: #5D00C2;
   --formation-color: #AA40E0;
   --experience-color: #7A00FF;
   --evolution-color: #BD56CE;
+  --article-light-color: #E9D4F4;
   --formation-light-color: #E9D4F4;
   --experience-light-color: #DFC7FA;
   --evolution-light-color: #F2DDF5;
@@ -56,7 +64,6 @@ body{
   --formation-ultralight-color: #F4EEF7;
   --experience-ultralight-color: #F1EAF9;
   --evolution-ultralight-color: #F5EFF6;
-  --article-ultralight-color: #DAC7EE;
 }
 header{
   position: -webkit-sticky;
@@ -250,14 +257,16 @@ span#hello{
   max-width: 600px;
   margin: 60px;
   padding: 60px;
-  position: relative;
-  left: -13px;
   z-index: 0;
   box-shadow: 0 32px 128px rgba(0,0,0,0.05);
 }
 .corps-article img{
   margin: 0;
   padding: 0;
+}
+article{
+  transform: scale(0.95);
+  opacity: 0.8;
 }
 article img{
   width: 100%;
@@ -288,6 +297,19 @@ article h1 a{
 }
 .evolution h1 a{
   color: var(--evolution-color);
+}
+.evolution .container{
+  max-width: 720px;
+  padding: 0 60px;
+  margin: 0;
+}
+.evolution .container .corps-article{
+  background-color: var(--evolution-light-color);
+  margin: 0;
+}
+.evolution_top{
+  position: relative;
+  top: 5px;
 }
 .article .tag a{
   background-color: #fff;
@@ -325,4 +347,18 @@ article h1 a{
   margin: 16px 0;
   background-color: var(--article-ultralight-color);
   font-weight: 400;
+}
+.progress-container{
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #fafafa;
+}
+.progress-bar{
+  width: 8px;
+  border-radius: 0 0px 4px 4px ;
+  box-shadow: 0px 16px 16px rgba(0,0,0,0.1);
+  display: block;
+  background-color: var(--article-light-color);
 }

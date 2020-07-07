@@ -44,7 +44,7 @@
 	// Pour capter un changement du viewheight
 	window.onresize = function(){ 
 		x = window.innerHeight;
-		x = x - 301;
+		x = x - 350;
 		inView.offset({
 	    bottom: x,
 	    top: 299
@@ -60,12 +60,25 @@
 		inView('.timeline')
 	    .on('exit', el => {
 	        el.style.opacity = 0;
-	        el.style.transition = "all 1s";
+	        el.style.transition = "all 0.3s";
 	         
 	    })
 	    .on('enter', el => {
 	        el.style.opacity = 1;
-	        el.style.transition = "all 0.1s";
+	        el.style.transition = "all 0.3s";
+	    });
+
+	    inView('article')
+	    .on('exit', el => {
+	    	el.style = "transform: scale(0.98);"
+	        el.style.opacity = 0.8;
+	        el.style.transition = "all 0.3s";
+	         
+	    })
+	    .on('enter', el => {
+	    	el.style = "transform: scale(1);"
+	        el.style.opacity = 1;
+	        el.style.transition = "all 0.3s";
 	    });
 	/* INVIEW */
     Modernizr.on('webp', function(result) {
@@ -79,6 +92,21 @@
 		img.src = "/images/illustration-min.png";
 	  }
 	});
+
+	/* SCROLL INDICATOR */
+
+	window.onscroll = function() {scroll()};
+
+	function scroll() {
+		var winScroll = document.documentElement.scrollTop;
+		var height = document.documentElement.scrollHeight - document.documentElement.clientHeight
+		var scrolled = (winScroll / height) * 100;
+		document.getElementById("myBar").style.height = scrolled + "%";
+		console.log(document.documentElement.scrollTop);
+		console.log(height);
+		console.log(document.getElementById("homepage").offsetHeight);
+		console.log(scrolled);
+	}
     </script>
 </body>
 </html>
