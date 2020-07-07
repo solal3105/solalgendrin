@@ -155,7 +155,6 @@ main{
   display: inline-flex;
   align-items: baseline;
   height: 100%;
-  min-width: 50vw;
 }
 #header img{
   max-width: 200px;
