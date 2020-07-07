@@ -363,3 +363,24 @@ article h1 a{
   display: block;
   background-color: var(--article-light-color);
 }
+
+@media (max-width: 1024px) {
+  #content img{
+    max-width: 40%;
+    display: inline-block;
+  }
+  .corps-article{
+    min-width: 400px;
+  }
+  main{
+    width: 100%;
+  }
+}
+@media (max-width: 512px) {
+  .timeline{
+    display: none;
+  }
+  #menu ul{
+    margin: 0;
+  }
+}
