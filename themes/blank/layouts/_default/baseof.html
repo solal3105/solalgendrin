@@ -2,7 +2,7 @@
 <html lang="{{ .Site.LanguageCode | default "fr-fr" }}">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=0.99">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="Description" content="Solal Gendrin - Product Owner sur Lyon. Découvrez mon portfolio ! ">	
 	<title>{{ .Title }}</title>
@@ -15,7 +15,6 @@
 	{{ if eq .Params.label "article" }}
 	<link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/{{.Params.label}}.css" />
 	{{ end }}
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	{{ if ne .Params.label "article" }}
@@ -32,7 +31,6 @@
 	<!-- <script  src="/js/rellax.min.js"></script> -->
 
 	<script>
-
 	/* RELLAX */
 	
 	/* var rellax = new Rellax('#homepage', {
@@ -80,20 +78,10 @@
 	        el.style.opacity = 1;
 	        el.style.transition = "all 0.3s";
 	    });
-	    /* SHADOW */
-	    inView('.corps-article')
-	    .on('exit', el => {
-	    	el.style.boxShadow = "0px 32px 128px rgba(0,0,0,0.05)";
-	         
-	    })
-	    .on('enter', el => {
-	    	el.style.boxShadow = "0px 32px 128px rgba(0,0,0,0.08)";
-	    });
-
 	/* MODERNIZR */
 
     Modernizr.on('webp', function(result) {
-		var content = document.getElementById("content");
+		var content = document.getElementById("illustration");
 		var img = document.createElement("img");
 		img.alt = "Photo en noir et blanc de Solal Gendrin";
 		content.appendChild(img);
@@ -113,10 +101,6 @@
 		var height = document.documentElement.scrollHeight - document.documentElement.clientHeight
 		var scrolled = (winScroll / height) * 100;
 		document.getElementById("myBar").style.height = scrolled + "%";
-		console.log(document.documentElement.scrollTop);
-		console.log(height);
-		console.log(document.getElementById("homepage").offsetHeight);
-		console.log(scrolled);
 	}
     </script>
 </body>
