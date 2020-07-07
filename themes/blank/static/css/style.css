@@ -155,7 +155,7 @@ main{
   display: inline-flex;
   align-items: baseline;
   height: 100%;
-  width: 100%;
+  min-width: 50vw;
 }
 #header img{
   max-width: 200px;
@@ -395,6 +395,20 @@ article h1 a{
   }
   #homepage #content #text {
     padding: 0px; 
+  }
+}
+@media (max-width: 768px) {
+  #homepage #content{
+    flex-direction: column;
+  }
+  #container .corps-article{
+    width: 100%;
+  }
+  .timeline{
+    display: none;
+  }
+  #social{
+    display: none;
   }
 }
 @media (max-width: 512px) {
