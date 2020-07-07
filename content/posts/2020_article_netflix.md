@@ -5,10 +5,7 @@ tags = [
     "article",
     "UX Design",
 ]
-label = [
-    "article",
-    "UX Design",
-]
+label = "article"
 date = "2020-01-01"
 +++
 

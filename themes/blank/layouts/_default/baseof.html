@@ -68,7 +68,7 @@
 	        el.style.transition = "all 0.3s";
 	    });
 
-	    inView('article')
+	    inView('.experience .corps-article,.formation .corps-article,.article .corps-article, .evolution .container')
 	    .on('exit', el => {
 	    	el.style = "transform: scale(0.98);"
 	        el.style.opacity = 0.8;
@@ -80,7 +80,18 @@
 	        el.style.opacity = 1;
 	        el.style.transition = "all 0.3s";
 	    });
-	/* INVIEW */
+	    /* SHADOW */
+	    inView('.corps-article')
+	    .on('exit', el => {
+	    	el.style.boxShadow = "0px 32px 128px rgba(0,0,0,0.05)";
+	         
+	    })
+	    .on('enter', el => {
+	    	el.style.boxShadow = "0px 32px 128px rgba(0,0,0,0.08)";
+	    });
+
+	/* MODERNIZR */
+
     Modernizr.on('webp', function(result) {
 		var content = document.getElementById("content");
 		var img = document.createElement("img");

@@ -56,7 +56,7 @@ body {
   --formation-color: #AA40E0;
   --experience-color: #7A00FF;
   --evolution-color: #BD56CE;
-  --article-light-color: #E9D4F4;
+  --article-light-color: #DAC7EE;
   --formation-light-color: #E9D4F4;
   --experience-light-color: #DFC7FA;
   --evolution-light-color: #F2DDF5;
@@ -259,14 +259,12 @@ span#hello{
   padding: 60px;
   z-index: 0;
   box-shadow: 0 32px 128px rgba(0,0,0,0.05);
+  transform: scale(0.95);
+  opacity: 0.8;
 }
 .corps-article img{
   margin: 0;
   padding: 0;
-}
-article{
-  transform: scale(0.95);
-  opacity: 0.8;
 }
 article img{
   width: 100%;
@@ -300,12 +298,14 @@ article h1 a{
 }
 .evolution .container{
   max-width: 720px;
-  padding: 0 60px;
-  margin: 0;
+  padding: 0 ;
+  margin: 0 60px;
+
 }
 .evolution .container .corps-article{
-  background-color: var(--evolution-light-color);
+  background-color: #EDD7EF;
   margin: 0;
+  transform: scale(1);
 }
 .evolution_top{
   position: relative;
@@ -349,6 +349,7 @@ article h1 a{
   font-weight: 400;
 }
 .progress-container{
+  z-index: 10;
   height: 100vh;
   position: fixed;
   right: 0;
