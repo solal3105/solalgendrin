@@ -66,15 +66,29 @@
 	        el.style.transition = "all 0.3s";
 	    });
 
-	    inView('.experience .corps-article,.formation .corps-article,.article .corps-article, .evolution .container')
+	    inView('.experience .corps-article,.formation .corps-article,.article .corps-article')
 	    .on('exit', el => {
-	    	el.style = "transform: scale(0.98);"
+	    	el.style = "transform: scale(0.98)";
+	        el.style.opacity = 0.8;
+	        el.style.transition = "all 0.3s";
+	        el.style.boxShadow = "0px 32px 128px rgba(0,0,0,0)";
+	         
+	    })
+	    .on('enter', el => {
+	    	el.style = "transform: scale(1)";
+	        el.style.opacity = 1;
+	        el.style.transition = "all 0.3s";
+	        el.style.boxShadow = "0px 32px 128px rgba(0,0,0,0.1)";
+	    });
+	    inView('.container')
+	    .on('exit', el => {
+	    	el.style = "transform: scale(0.98)";
 	        el.style.opacity = 0.8;
 	        el.style.transition = "all 0.3s";
 	         
 	    })
 	    .on('enter', el => {
-	    	el.style = "transform: scale(1);"
+	    	el.style = "transform: scale(1)";
 	        el.style.opacity = 1;
 	        el.style.transition = "all 0.3s";
 	    });
@@ -85,11 +99,21 @@
 		var img = document.createElement("img");
 		img.alt = "Photo en noir et blanc de Solal Gendrin";
 		content.appendChild(img);
-	  if (result) {
-		img.src = "/images/illustration-min.webp";
-	  } else {
-		img.src = "/images/illustration-min.png";
-	  }
+		if (window.innerWidth >= 1024){
+			if (result) {
+				img.src = "/images/illustration-min.webp";
+			} else {
+				img.src = "/images/illustration-min.png";
+			}
+		}
+		else{
+			if (result) {
+				img.src = "/images/illustration-min-lowres.webp";
+			} else {
+				img.src = "/images/illustration-min-lowres.png";
+			}
+		}
+
 	});
 
 	/* SCROLL INDICATOR */
