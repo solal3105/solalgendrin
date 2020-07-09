@@ -80,10 +80,9 @@ header{
   margin: 0 auto;
 }
 #menu ul{
-  display: inline-block;
   margin: auto;
   display: flex;
-  margin-left: 24px;
+  align-items: center;
 }
 footer{
   padding-bottom: 50vh;
@@ -294,9 +293,11 @@ article h1{
 article h2{
   font-weight: 400;
   font-size: 1.2em;
+  padding-bottom: 0.4em;
 }
 article h1 a{
   text-decoration: none;
+  display: block;
 }
 .article h1 a{
   color: var(--article-color);
@@ -479,6 +480,7 @@ article h1 a{
   }
   #menu ul{
     flex-wrap: nowrap;
+  padding-left: 24px;
   }
   body{
     width: 100%;

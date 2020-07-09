@@ -6,6 +6,7 @@ tags = [
 ]
 date = "2012-01-01"
 label = "experience"
+image = "/images/ui.svg"
 +++
 
 Maquettage d’une application de lecture de flux vidéo, puis aide à la conception de l’interface utilisateur pour le boitier télé. 
