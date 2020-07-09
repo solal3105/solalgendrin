@@ -14,11 +14,11 @@
 		
 		{{if (eq .Params.label "evolution")}}
 			<div class="container">
-			<img src="/images/tuile/evolution/top.svg" class="evolution_top">
+			<img src="/images/tuile/evolution/top.svg" class="evolution_top" alt="">
 		{{end}}
 		<div class="corps-article" >
 		{{ if .Params.image }}
-			<img src="{{ .Params.image }}" alt="Illustration de l'article">
+			<img src="{{ .Params.image }}" alt="Illustration de l'article" >
 		{{ end }}
 		<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 		<h2>{{ .Page.Params.subtitle }}</h2>
@@ -33,7 +33,7 @@
 
 		</div>
 		{{if (eq .Params.label "evolution")}}
-			<img src="/images/tuile/evolution/bottom.svg">
+			<img src="/images/tuile/evolution/bottom.svg" alt="">
 			</div>
 		{{end}}
 	</div>

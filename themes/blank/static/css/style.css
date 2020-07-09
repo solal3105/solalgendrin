@@ -55,6 +55,7 @@ body {
   --formation-color: #AA40E0;
   --experience-color: #7A00FF;
   --evolution-color: #BD56CE;
+  --evolution-high-contrast: #9C2CAE;
   --article-light-color: #DAC7EE;
   --formation-light-color: #E9D4F4;
   --experience-light-color: #DFC7FA;
@@ -342,7 +343,7 @@ article h1 a{
 }
 .evolution .tag a{
   background-color: #fff;
-  color: var(--evolution-color);
+  color: var(--evolution-high-contrast);
 }
 .content_summury_article{
   font-family: 'Montserrat';
