@@ -34,6 +34,6 @@ paginate= 100
 
   [[menu.main]]
     identifier = "article#menu"
-    name = "☲ Articles"
+    name = "Articles"
     url = "/tags/article"
     weight = -6

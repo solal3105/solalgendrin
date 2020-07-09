@@ -44,22 +44,22 @@
 	window.onresize = function() {inViewRes()};
 
 	function inViewRes(){
-		if (window.innerWidth > 768){
+		/* if (window.innerWidth > 768){ */
 			x = window.innerHeight;
 			x = x - 350;
 			inView.offset({
 				bottom: x,
 				top: 299
 			});
-		}
-		else{
+		/* }
+		else{ 
 			x = window.innerHeight;
-			x = x - 0;
+			x = x - 24;
 			inView.offset({
 				bottom: x,
-				top: 0
+				top: 24
 			});
-		}
+		} */
 	}
 
 	inView('.timeline')

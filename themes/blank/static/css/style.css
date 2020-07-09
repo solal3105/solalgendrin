@@ -78,12 +78,11 @@ header{
 #menu{
   display: flex;
   margin: 0 auto;
-  align-items: center;
-  justify-content: center;
 }
 #menu ul{
   display: inline-block;
   margin: auto;
+  display: flex;
 }
 footer{
   padding-bottom: 50vh;
@@ -93,7 +92,8 @@ footer{
   padding: 8px;
   margin: 8px;
   display: inline-flex;
-  box-shadow: none;
+  background-color: var(--article-ultralight-color);
+  color: var(--article-light-color);
 }
 #menu ul{
   padding: 32px 0 ;
@@ -106,8 +106,8 @@ footer{
     }
 
 #menu ul li.active-menu{
-  opacity: 1;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  background-color: var(--article-light-color);
+  color: var(--article-color);
 
 }
 #menu ul li.active-menu a{
@@ -384,6 +384,9 @@ article h1 a{
   }
 }
 @media (max-width: 1024px) {
+  #myBar{
+    display: none;
+  }
   #illustration img{
     width: 100%;
   }
@@ -417,11 +420,17 @@ article h1 a{
   }
 
   .timeline{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  transform: rotate(-5deg);
+    width: 0em;
+    transform: rotate(-90deg);
+  }
+  .date{
+    color: #ddd;
+    z-index: 2;
+    font-weight: 700;
+      -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  transition: 0s;
   }
   .tag{
     display: none;
@@ -452,6 +461,7 @@ article h1 a{
   }
   #menu ul{
     margin: 0;
+    flex-wrap: nowrap;
   }
   body{
     width: 100%;
