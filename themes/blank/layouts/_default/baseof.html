@@ -40,22 +40,29 @@
 	/* INVIEW */
 
 	// Pour capter un changement du viewheight
-	window.onresize = function(){ 
-		x = window.innerHeight;
-		x = x - 350;
-		inView.offset({
-	    bottom: x,
-	    top: 299
-	});
-	}
-	x = window.innerHeight;
-	x = x - 301;
-	inView.offset({
-	    bottom: x,
-	    top: 299
-	});
+	window.onload = function() {inViewRes()};
+	window.onresize = function() {inViewRes()};
 
-		inView('.timeline')
+	function inViewRes(){
+		if (window.innerWidth > 768){
+			x = window.innerHeight;
+			x = x - 350;
+			inView.offset({
+				bottom: x,
+				top: 299
+			});
+		}
+		else{
+			x = window.innerHeight;
+			x = x - 0;
+			inView.offset({
+				bottom: x,
+				top: 0
+			});
+		}
+	}
+
+	inView('.timeline')
 	    .on('exit', el => {
 	        el.style.opacity = 0;
 	        el.style.transition = "all 0.3s";
@@ -92,29 +99,8 @@
 	        el.style.opacity = 1;
 	        el.style.transition = "all 0.3s";
 	    });
-	/* MODERNIZR */
 
-    Modernizr.on('webp', function(result) {
-		var content = document.getElementById("illustration");
-		var img = document.createElement("img");
-		img.alt = "Photo en noir et blanc de Solal Gendrin";
-		content.appendChild(img);
-		if (window.innerWidth >= 1024){
-			if (result) {
-				img.src = "/images/illustration-min.webp";
-			} else {
-				img.src = "/images/illustration-min.png";
-			}
-		}
-		else{
-			if (result) {
-				img.src = "/images/illustration-min-lowres.webp";
-			} else {
-				img.src = "/images/illustration-min-lowres.png";
-			}
-		}
 
-	});
 
 	/* SCROLL INDICATOR */
 
@@ -125,6 +111,38 @@
 		var height = document.documentElement.scrollHeight - document.documentElement.clientHeight
 		var scrolled = (winScroll / height) * 100;
 		document.getElementById("myBar").style.height = scrolled + "%";
+	}
+
+
+	/* MODERNIZR WEBP */
+
+
+
+	window.onload = webp;
+
+	function webp()
+	{
+		Modernizr.on('webp', function(result) {
+			var content = document.getElementById("illustration");
+			var img = document.createElement("img");
+			img.alt = "Photo en noir et blanc de Solal Gendrin";
+			content.appendChild(img);
+			if (window.innerWidth > 768){
+				if (result) {
+					img.src = "/images/illustration-min.webp";
+				} else {
+					img.src = "/images/illustration-min.png";
+				}
+			}
+			else{
+				if (result) {
+					img.src = "/images/illustration-min-lowres.webp";
+				} else {
+					img.src = "/images/illustration-min-lowres.png";
+				}
+			}
+
+		});
 	}
     </script>
 </body>
