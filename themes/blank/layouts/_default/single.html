@@ -7,6 +7,7 @@
 			{{ end }}
 		{{ end }}
 		<article>
+			<div id="retour_top"><a href="../" >< Retour</a></div>
 			<h1>{{ .Title }}</h1>
 			
 			<div>
@@ -22,6 +23,5 @@
 			</div>
 			{{ end }}
 		</article>
-		<a href="{{ .Site.BaseURL }}{{ .Site.Params }}">Prochain article</a>
 	</main>
 {{ end }}

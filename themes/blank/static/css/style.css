@@ -41,7 +41,7 @@ body{
   transition: 0.3s;
   margin: 0 auto;
   padding: 0;
-  width: 90%;
+  width: 100%;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -97,10 +97,10 @@ footer{
   color: var(--article-light-color);
 }
 #menu ul{
-  padding: 32px 0 ;
+  padding: 8px 0 ;
 }
 @supports (((-webkit-backdrop-filter:  blur(5px)) or(backdrop-filter: saturate(180%) blur(5px)))) {
-        #menu ul{
+        #menu{
             -webkit-backdrop-filter: saturate(180%) blur(48px);
             background: rgba(255,255,255,0);
         }
@@ -381,11 +381,6 @@ article h1 a{
   display: block;
   background-color: var(--article-light-color);
 }
-@media (max-width: 1440px) {
-  body{
-    width: 90%;
-  }
-}
 @media (max-width: 1024px) {
   #myBar{
     display: none;
@@ -446,7 +441,7 @@ article h1 a{
     display: none;
   }
   body{
-    width: 100%;
+    width: 90%;
   }
   main{
     width: 90%;
@@ -495,5 +490,5 @@ article h1 a{
     max-width: 720px;
     padding: 0;
     margin: 48px 0;
-}
+  }
 }
