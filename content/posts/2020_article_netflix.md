@@ -1,4 +1,4 @@
-+++
+ +++
 title = "UX Design Concept"
 subtitle = "Réalisé lors d'un design sprint d'une semaine"
 tags = [
