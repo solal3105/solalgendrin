@@ -213,7 +213,7 @@ margin: auto;}
   margin: 0 auto;
 }
 #homepage #content #text{
-  font-size: 1em;
+  font-size: 1.1em;
   text-align: justify;
   font-family: 'Montserrat', sans-serif;
   display: flex;
@@ -221,6 +221,7 @@ margin: auto;}
   align-items: baseline;
   margin: auto 2%;
 }
+
 span#hello{
   font-family: 'Syncopate', sans-serif;
   font-size: 2.4em;
@@ -376,21 +377,20 @@ article h1 a{
   display: inline-block;
   padding: 8px;
   margin: 16px 0;
-  background-color: var(--article-ultralight-color);
+  background-color: var(--article-light-color);
   font-weight: 400;
 }
 .progress-container{
   z-index: 10;
-  height: 100vh;
-  position: fixed;
+  width: 100%;
+  position: sticky;
   right: 0;
   top: 0;
-  background-color: #fafafa;
 }
 .progress-bar{
-  width: 8px;
+  height: 4px;
+  width: 100%;
   border-radius: 0 0px 4px 4px ;
-  box-shadow: 0px 16px 16px rgba(0,0,0,0.1);
   display: block;
   background-color: var(--article-light-color);
 }
