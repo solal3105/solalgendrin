@@ -3,6 +3,8 @@ title = "Chargé de projet & de communication"
 subtitle = "Bâton du jura - 1 ans"
 tags = [
     "experience",
+    "UI",
+    "marketing"
 ]
 date = "2014-01-01"
 label = "experience"

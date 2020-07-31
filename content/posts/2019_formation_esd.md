@@ -3,6 +3,7 @@ title = "Master UX"
 subtitle = "École Superieure du Digitale - 2 ans"
 tags = [
 "formation",
+"ux"
 ]
 date = "2019-01-01"
 label = "formation"

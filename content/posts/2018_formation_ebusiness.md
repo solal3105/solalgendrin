@@ -3,6 +3,7 @@ title = "Licence e-business"
 subtitle = "Université Claude Bernard Lyon 1 - 1 an"
 tags = [
 "formation",
+"marketing"
 ]
 date = "2018-01-01"
 label = "formation"

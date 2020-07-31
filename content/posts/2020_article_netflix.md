@@ -2,7 +2,10 @@
 title = "UX Design Concept"
 subtitle = "Réalisé lors d'un design sprint d'une semaine"
 tags = [
-    "article"
+    "article",
+    "ux",
+    "ui",
+    "produit"
 ]
 label = "article"
 date = "2020-01-01"

@@ -3,6 +3,7 @@ title = "Chargé de projet E-learning"
 subtitle = "ALDES - 1 ans"
 tags = [
 "experience",
+"marketing"
 ]
 date = "2018-01-01"
 label = "experience"

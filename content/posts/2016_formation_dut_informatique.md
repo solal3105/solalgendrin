@@ -3,6 +3,7 @@ title = "DUT Informatique"
 subtitle = "Université Claude Bernard Lyon 1 - 2 ans"
 tags = [
 "formation",
+"dev"
 ]
 date = "2016-01-01"
 label = "formation"

@@ -2,7 +2,9 @@
 title = "Product Owner"
 subtitle = "Hiveo - En cours"
 tags = [
-    "article"
+    "article",
+    "produit",
+    "ux"
 ]
 date = "2020-01-01"
 label = "article"

@@ -11,29 +11,17 @@ paginate= 100
   [[menu.main]]
     identifier = "tout"
     name = "Tout"
-    url = "/"
+    url = "#main"
     weight = -10
 
   [[menu.main]]
-    identifier = "experience#menu"
+    identifier = "experience#main"
     name = "Experiences"
     url = "/tags/experience/"
     weight = -9
 
   [[menu.main]]
-    identifier = "formation#menu"
+    identifier = "formation#main"
     name = "Formations"
     url = "/tags/formation/"
     weight = -8
-
-  [[menu.main]]
-    identifier = "evolution#menu"
-    name = "Évolutions"
-    url = "/tags/evolution/"
-    weight = -7
-
-  [[menu.main]]
-    identifier = "article#menu"
-    name = "Articles"
-    url = "/tags/article"
-    weight = -6

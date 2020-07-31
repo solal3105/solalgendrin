@@ -3,6 +3,7 @@ title = "User eXperience Designer"
 subtitle = "Phillip Morris International - 5 mois sur 2 ans"
 tags = [
 "experience",
+"ux"
 ]
 date = "2016-01-01"
 label = "experience"

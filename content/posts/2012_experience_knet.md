@@ -3,6 +3,7 @@ title = "Conception UI"
 subtitle = "KNET - 2 mois"
 tags = [
     "experience",
+    "UI"
 ]
 date = "2012-01-01"
 label = "experience"
