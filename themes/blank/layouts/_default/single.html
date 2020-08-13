@@ -10,9 +10,6 @@
 			<div id="retour_top"><a href="../" >< Retour</a></div>
 			<h1>{{ .Title }}</h1>
 			
-			<div>
-				{{ .Content }}
-			</div>
 			{{ with .Params.tags }}
 			<div>
 				<ul id="tags">
@@ -22,6 +19,10 @@
 				</ul>
 			</div>
 			{{ end }}
+			
+			<div>
+				{{ .Content }}
+			</div>
 		</article>
 	</main>
 {{ end }}
