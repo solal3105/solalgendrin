@@ -142,13 +142,6 @@ blockquote{
 #tags ul{
   margin: 0;
 }
-ul li{
-  display: inline-flex;
-  text-decoration: none;
-  padding: 8px;
-  margin: 8px;
-  box-shadow: 4px 4px 4px 4px rgba(0,0,0,1);
-}
 @media (max-width: 1024px) {
   #tableofcontent{
     display: none;
