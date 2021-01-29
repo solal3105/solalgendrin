@@ -89,7 +89,7 @@ Je me rend sur place avec mes collègues. Nous avons fini notre réunion plut t�
 
 ![2021_article_brasserie_george/Capture_decran_2021-01-28_a_15.09.29.png](Capture_decran_2021-01-28_a_15.09.29.png)
 
-![2021_article_brasserie_george/entre-sortie.png](2021_article_brasserie_george/sortie.png)
+![2021_article_brasserie_george/entre-sortie.png](sortie.png)
 
 ---
 
