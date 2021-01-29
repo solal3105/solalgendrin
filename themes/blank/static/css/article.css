@@ -95,8 +95,9 @@ h2 + p{
   position: sticky;
   top: 40px;
   right: 40px;
-  max-height: 200px;
+  max-height: 90vh;
   transition: 0.4s;
+  overflow: auto;
 }
 #tableofcontent ul li{
     list-style: none;
