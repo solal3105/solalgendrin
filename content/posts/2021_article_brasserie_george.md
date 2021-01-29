@@ -21,9 +21,9 @@ Objectif : Préparer la réouverture d’un symbole de la gastronomie lyonnaise.
 Ainsi, voici nos préconisations, basé sur le parcours d'un utilisateur : 
 
 
-## 😋 "J'ai envie d'aller au restaurant"
+## 😋 J'ai envie d'aller au restaurant
 
-Sortant de mon travail à midi, je souhaite aller me restaurer à la Brasserie Georges avec mes collègues de boulot. J'ai vu sur leur site qu'il est très recommandé de réserver à l'avance vu le contexte sanitaire, je vais donc les appeler.
+Mise en contexte déconfinement : "Sortant de mon travail à midi, je souhaite aller me restaurer à la Brasserie Georges avec mes collègues de boulot. J'ai vu sur leur site qu'il est très recommandé de réserver à l'avance vu le contexte sanitaire, je vais donc les appeler."
 
 ### **Problématiques**
 
@@ -56,7 +56,7 @@ Sortant de mon travail à midi, je souhaite aller me restaurer à la Brasserie G
 
 ## 👣 Je suis sur place
 
-Je me rend sur place avec mes collègues. Nous avons fini notre réunion plut tôt que prévu donc notre table n'est pas encore prête. Le serveur nous redirige alors vers la salle d'attente.
+Mise en contexte déconfinement : "Je me rend sur place avec mes collègues. Nous avons fini notre réunion plut tôt que prévu donc notre table n'est pas encore prête. Le serveur nous redirige alors vers la salle d'attente."
 
 ### **Problématiques**
 
@@ -97,7 +97,7 @@ Je me rend sur place avec mes collègues. Nous avons fini notre réunion plut t�
 
 ## ⏱️Je patiente pour ma table
 
-Pour patienter nous avons commandé le cocktail du jour, qu'un des écrans au bar nous proposait. C'est la réouverture, il y a un peu de monde avant nous.
+Mise en contexte déconfinement : "Pour patienter nous avons commandé le cocktail du jour, qu'un des écrans au bar nous proposait. C'est la réouverture, il y a un peu de monde avant nous pour la réservation d'après ce que je vois sur l'écran. C'est original, il nous ont remis le nom d'une celebrité s'étant assise à notre table pour suivre notre réservation"
 
 ### **Problématiques**
 
@@ -136,7 +136,7 @@ Exemple d'emplacement d'écran et du contenu à affiché :
 
 ## 👌 Le serveur m'installe
 
-Un serveur me prend en charge et m'accompagne jusqu'à la table tout en suivant la signalétique au sol. Une fois bien installé, le serveur m'apporte la carte des menus (QR code) et me propose un apéritif (si je n'en ai pas déjà consommé un pendant l'attente). 
+Mise en contexte déconfinement : "Un serveur me prend en charge et m'accompagne jusqu'à la table tout en suivant la signalétique au sol. Une fois bien installé, le serveur m'apporte la carte des menus (QR code) et me propose un apéritif (Même si j'en ai pas déjà consommé un pendant l'attente)."
 
 ### **Frustrations identifiées**
 
@@ -149,7 +149,7 @@ Un serveur me prend en charge et m'accompagne jusqu'à la table tout en suivant 
 
 ## 👩‍🍳 J'attends mon plat
 
-Je viens de passer ma commande, je discute avec mes collègues en attendant nos plats. 
+Mise en contexte déconfinement : "Je viens de passer ma commande, je discute avec mes collègues en attendant nos plats."
 
 ### **Frustrations identifiées**
 
@@ -171,7 +171,7 @@ Je viens de passer ma commande, je discute avec mes collègues en attendant nos 
 
 ## 🥘 Je consomme mon plat
 
-Je déguste les spécialités lyonnaises présentées devant moi et je prends notes des plats du jour présentés sur l'écran que je vois au bout de la terrasse.
+Mise en contexte déconfinement : "Je déguste les spécialités lyonnaises présentées devant moi et je prends notes des plats du jour présentés sur l'écran que je vois au bout de la terrasse."
 
 ### **Frustrations identifiées**
 
@@ -186,7 +186,7 @@ Je déguste les spécialités lyonnaises présentées devant moi et je prends no
 
 ## 💶 J'attends pour le paiement
 
-J'ai appelé le serveur pour demander le paiement. Je finis mon café tout en discutant futurs vacances avec mes collègues.
+Mise en contexte déconfinement : "J'ai appelé le serveur pour demander le paiement. Je finis mon café tout en discutant futurs vacances avec mes collègues."
 
 ### **Frustrations identifiées**
 
@@ -197,7 +197,7 @@ J'ai appelé le serveur pour demander le paiement. Je finis mon café tout en di
 
 ## 🚶‍♂️ Je sors du restaurant
 
-Alors que le serveur nous souhaite une bonne fin de journée, il nous précise bien de suivre le sens de circulation indiqué au sol pour prendre la sortie qui se situe au fond de la salle.
+Mise en contexte déconfinement : "Alors que le serveur nous souhaite une bonne fin de journée, il nous précise bien de suivre le sens de circulation indiqué au sol pour prendre la sortie qui se situe au fond de la salle."
 
 ### **Frustrations identifiées**
 
@@ -210,5 +210,7 @@ Alors que le serveur nous souhaite une bonne fin de journée, il nous précise b
 → Mise en place du sens de circulation au sein de l'établissement, avec des indications pour diriger le client a tout moment lors de ses déplacement à l'intérieur.
 
 → Mettre en évidence **la sortie du restaurant**, avec la disposition du gel et un QR code pour recueillir le retour du client sortant.
+
+Merci de votre lecture, Alex, Raj, Morgan & Solal
 
 ![Convergence%205723149df75140d094339850e6809873/sortie-salle.png](sortie-salle.png)
