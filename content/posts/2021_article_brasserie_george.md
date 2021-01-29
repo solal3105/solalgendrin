@@ -9,7 +9,7 @@ tags = [
 ]
 label = "article"
 date = "2021-01-01"
-image = "/images/brasserie.svg"
+image = "/images/food.svg"
 +++
 ![Screen d'applications intéressantes pour la phase d'idéation](illustration.svg)
 ## Brief
