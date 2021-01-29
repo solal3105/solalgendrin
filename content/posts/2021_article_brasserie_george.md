@@ -11,18 +11,26 @@ label = "article"
 date = "2021-01-01"
 image = "/images/food.svg"
 +++
+## Brief
 
-## 😋 J'ai envie d'aller au restaurant
+Objectif : Préparer la réouverture d’un symbole de la gastronomie lyonnaise.
+
+- Comment faire patienter les nombreux clients pour la réouverture post-crise sanitaire ?
+- Comment le dispositif peut évoluer au fil du temps ?
+
+Ainsi, voici nos préconisations, basé sur le parcours d'un utilisateur : 
+
+
+## 😋 "J'ai envie d'aller au restaurant"
 
 Sortant de mon travail à midi, je souhaite aller me restaurer à la Brasserie Georges avec mes collègues de boulot. J'ai vu sur leur site qu'il est très recommandé de réserver à l'avance vu le contexte sanitaire, je vais donc les appeler.
 
 ### **Problématiques**
 
 - **Comment faire patienter les nombreux clients ?**
+    - Encourager la réservation
 
-    Encourager la réservation
-
-- **Comment le dispositif peut évoluer au fil du temps ?**
+- **Comment le dispositif peut évoluer au sortir de la crise sanitaire ?**
     - Revenir au "sans réservation"
     - Adapter les informations communiquées aux prospects et aux clients en fonction du contexte sanitaire
 
@@ -36,11 +44,11 @@ Sortant de mon travail à midi, je souhaite aller me restaurer à la Brasserie G
 - Utiliser son site internet et ses newsletters comme source d'information clef pour les futurs / potentiels clients
 - Garder une expérience unique pour engendrer du bouche à oreille
 
-**Avant**
+**Actuel :**
 
 ![Convergence%205723149df75140d094339850e6809873/Capture_decran_2021-01-28_a_14.53.22.png](Capture_decran_2021-01-28_a_14.53.22.png)
 
-**Après**
+**Préconisé pour la réouverture :**
 
 ![Convergence%205723149df75140d094339850e6809873/Capture_decran_2021-01-28_a_14.52.37.png](Capture_decran_2021-01-28_a_14.52.37.png)
 
@@ -54,14 +62,14 @@ Je me rend sur place avec mes collègues. Nous avons fini notre réunion plut t�
 
 - **Comment faire patienter les nombreux clients ?**
 
-    Les installer dans une salle d'accueil plus grande, confortable et distancés socialement.
-    Faire une file unique en extérieur afin de ne pas se serrer à l'intérieur.
+    - Les installer dans une salle d'accueil plus grande, confortable et distancés socialement.
+    - Faire une file unique en extérieur afin de ne pas se serrer à l'intérieur.
 
-- **Comment le dispositif peut évoluer au fil du temps ?**
+- **Comment le dispositif peut évoluer au sortir de la crise sanitaire ?**
 
-    Adapter le nombre de tables en fonction des contraintes sanitaires 
+    - Adapter le nombre de tables en fonction des contraintes sanitaires 
 
-    Adapter les restrictions de flux en fonction des distanciations sociales imposées
+    - Adapter les restrictions de flux en fonction des distanciations sociales imposées
 
 ### **Frustrations identifiées**
 
@@ -75,13 +83,11 @@ Je me rend sur place avec mes collègues. Nous avons fini notre réunion plut t�
 
 ![Convergence%205723149df75140d094339850e6809873/Capture_decran_2021-01-28_a_15.06.31.png](Capture_decran_2021-01-28_a_15.06.31.png)
 
-**Avant**
+**Actuel :**
 
 ![Convergence%205723149df75140d094339850e6809873/Capture_decran_2021-01-28_a_15.15.20.png](Capture_decran_2021-01-28_a_15.15.20.png)
 
-**Panneau de circulation**
-
-**Après**
+**Préconisé pour la réouverture :**
 
 ![Convergence%205723149df75140d094339850e6809873/Capture_decran_2021-01-28_a_15.09.29.png](Capture_decran_2021-01-28_a_15.09.29.png)
 
@@ -97,11 +103,12 @@ Pour patienter nous avons commandé le cocktail du jour, qu'un des écrans au ba
 
 - **Comment faire patienter les nombreux clients ?**
 
-    Mise en place de dispositif digital ou non-digital pour distraire le client dans son attente. Utiliser aussi ce dispositif pour informer le client sur l'état de son attente et sur les mesures sanitaires établies dans la brasserie. 
+    - Mise en place de dispositif digital ou non-digital pour distraire le client dans son attente. 
+    - Utiliser également ce dispositif pour informer le client sur l'état de son attente et sur les mesures sanitaires établies dans la brasserie. 
 
-- **Comment le dispositif peut évoluer au fil du temps ?**
+- **Comment le dispositif peut évoluer au sortir de la crise sanitaire ?**
 
-    Le dispositif peut être utilisé comme support de communication et information après la crise sanitaire.
+    - Le dispositif peut être utilisé comme support de communication et information après la crise sanitaire.
 
 ### **Frustrations identifiées**
 
@@ -113,9 +120,7 @@ Pour patienter nous avons commandé le cocktail du jour, qu'un des écrans au ba
 
 - De l'affichage dynamique
 
-**Illustrations**
-
-Exemple d'emplacement d'écran et du contenu à affiché.
+Exemple d'emplacement d'écran et du contenu à affiché :
 
 ![Convergence%205723149df75140d094339850e6809873/salon-bar.png](salon-bar.png)
 
@@ -141,7 +146,6 @@ Un serveur me prend en charge et m'accompagne jusqu'à la table tout en suivant 
 
 → Exploitation d'une table sur deux, avec une distance de sécurité de 1,5m entre chaque table.
 
----
 
 ## 👩‍🍳 J'attends mon plat
 
@@ -203,6 +207,8 @@ Alors que le serveur nous souhaite une bonne fin de journée, il nous précise b
 
 ### **Solutions à envisager**
 
-→ Mise en place du sens de circulation au sein de l'établissement, avec des indications pour diriger le client a tout moment lors de ses déplacement à l'intérieur. et bien mettre en évidence **la sortie du restaurant**, avec la disposition du gel et un QR code pour recueillir le retour du client sortant.
+→ Mise en place du sens de circulation au sein de l'établissement, avec des indications pour diriger le client a tout moment lors de ses déplacement à l'intérieur.
+
+→ Mettre en évidence **la sortie du restaurant**, avec la disposition du gel et un QR code pour recueillir le retour du client sortant.
 
 ![Convergence%205723149df75140d094339850e6809873/sortie-salle.png](sortie-salle.png)

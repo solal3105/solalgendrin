@@ -129,7 +129,7 @@ h2 + p{
 }
 p{
   text-align: justify;
-  margin-block-start: 0em;
+  margin-block-start: 1em;
   margin-block-end: 1em;
 }
 blockquote{
