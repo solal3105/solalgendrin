@@ -1,4 +1,4 @@
-+++
+ +++
 title = "Les files d'attentes de la Brasserie George"
 subtitle = "Réalisé lors d'un design sprint d'une semaine"
 tags = [
@@ -12,7 +12,6 @@ date = "2021-01-01"
 image = "/images/food.svg"
 +++
 
-![Screen d'applications intéressantes pour la phase d'idéation](illustration.svg)
 ## Convergence
 
 Jean Marie, 45 ans, reçois une newsletter de la brasserie George. Le rassurant sur les mesures prises suite au déconfinement, il se dit que pourquoi pas, cette sortie sera l'occasion de revoir ses collègues hors des vignettes de mon écran ! 
@@ -43,11 +42,11 @@ Sortant de mon travail à midi, je souhaite aller me restaurer à la Brasserie G
 
 **Avant**
 
-![2021_article_brasserie_george/Capture_decran_2021-01-28_a_14.53.22.png](2021_article_brasserie_george/Capture_decran_2021-01-28_a_14.53.22.png)
+![2021_article_brasserie_george/Capture_decran_2021-01-28_a_14.53.22.png](Capture_decran_2021-01-28_a_14.53.22.png)
 
 **Après**
 
-![2021_article_brasserie_george/Capture_decran_2021-01-28_a_14.52.37.png](2021_article_brasserie_george/Capture_decran_2021-01-28_a_14.52.37.png)
+![2021_article_brasserie_george/Capture_decran_2021-01-28_a_14.52.37.png](Capture_decran_2021-01-28_a_14.52.37.png)
 
 ---
 
@@ -78,19 +77,19 @@ Je me rend sur place avec mes collègues. Nous avons fini notre réunion plut t�
 - Déplacer l'espace bar à l'extérieur pour maximiser l'espace d'accueil (1)
 - File d'attente et sens de circulation clairement établi (2)
 
-![2021_article_brasserie_george/Capture_decran_2021-01-28_a_15.06.31.png](2021_article_brasserie_george/Capture_decran_2021-01-28_a_15.06.31.png)
+![2021_article_brasserie_george/Capture_decran_2021-01-28_a_15.06.31.png](Capture_decran_2021-01-28_a_15.06.31.png)
 
 (1)**Avant**
 
-![2021_article_brasserie_george/Capture_decran_2021-01-28_a_15.15.20.png](2021_article_brasserie_george/Capture_decran_2021-01-28_a_15.15.20.png)
+![2021_article_brasserie_george/Capture_decran_2021-01-28_a_15.15.20.png](Capture_decran_2021-01-28_a_15.15.20.png)
 
 (2)Panneau de circulation
 
 **Après**
 
-![2021_article_brasserie_george/Capture_decran_2021-01-28_a_15.09.29.png](2021_article_brasserie_george/Capture_decran_2021-01-28_a_15.09.29.png)
+![2021_article_brasserie_george/Capture_decran_2021-01-28_a_15.09.29.png](Capture_decran_2021-01-28_a_15.09.29.png)
 
-![2021_article_brasserie_george/entre-sortie.png](2021_article_brasserie_george/entre-sortie.png)
+![2021_article_brasserie_george/entre-sortie.png](2021_article_brasserie_george/sortie.png)
 
 ---
 
@@ -122,7 +121,7 @@ Pour patienter nous avons commandé le cocktail du jour, qu'un des écrans au ba
 
 Exemple d'emplacement d'écran et du contenu à affiché.
 
-![2021_article_brasserie_george/salon-bar.png](2021_article_brasserie_george/salon-bar.png)
+![2021_article_brasserie_george/salon-bar.png](salon-bar.png)
 
 ---
 
@@ -130,9 +129,9 @@ Exemple d'emplacement d'écran et du contenu à affiché.
 
 → Les écrans peuvent afficher les offres du moment selon leur emplacement dans le restaurant. Dans la salle d'attente, ces écrans affichent les tables en préparation et leur disponibilité. Mais aussi des informations sanitaire, les actualités et l'histoire de l'établissement.
 
-![2021_article_brasserie_george/ecran2-bg.png](2021_article_brasserie_george/ecran2-bg.png)
+![2021_article_brasserie_george/ecran2-bg.png](ecran2-bg.png)
 
-![2021_article_brasserie_george/ecran-bg.png](2021_article_brasserie_george/ecran-bg.png)
+![2021_article_brasserie_george/ecran-bg.png](ecran-bg.png)
 
 ## 👌 Le serveur m'installe
 
@@ -164,9 +163,9 @@ Je viens de passer ma commande, je discute avec mes collègues en attendant nos 
 
 **Illustrations**
 
-![2021_article_brasserie_george/qr-code.jpg](2021_article_brasserie_george/qr-code.jpg)
+![2021_article_brasserie_george/qr-code.jpg](qr-code.jpg)
 
-![2021_article_brasserie_george/Frame_23.png](2021_article_brasserie_george/Frame_23.png)
+![2021_article_brasserie_george/Frame_23.png](Frame_23.png)
 
 ---
 
@@ -216,6 +215,6 @@ Alors que le serveur nous souhaite une bonne fin de journée, il nous précise b
 
 **Illustrations**
 
-![2021_article_brasserie_george/sortie-salle.png](2021_article_brasserie_george/sortie-salle.png)
+![2021_article_brasserie_george/sortie-salle.png](sortie-salle.png)
 
 ---
