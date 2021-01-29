@@ -139,8 +139,8 @@ blockquote{
 #retour_top{
   display: none;
 }
-#tags ul{
-  margin: 0;
+#tags{
+  display: none;
 }
 @media (max-width: 1024px) {
   #tableofcontent{
