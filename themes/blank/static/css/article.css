@@ -142,6 +142,7 @@ blockquote{
 #tags ul{
   margin: 0;
 }
+.social{display: none;}
 @media (max-width: 1024px) {
   #tableofcontent{
     display: none;
