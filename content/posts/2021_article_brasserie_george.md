@@ -211,6 +211,7 @@ Mise en contexte déconfinement : "Alors que le serveur nous souhaite une bonne 
 
 → Mettre en évidence **la sortie du restaurant**, avec la disposition du gel et un QR code pour recueillir le retour du client sortant.
 
-Merci de votre lecture, Alex, Raj, Morgan & Solal
 
 ![Convergence%205723149df75140d094339850e6809873/sortie-salle.png](sortie-salle.png)
+
+Merci de votre lecture, Alex, Raj, Morgan & Solal
